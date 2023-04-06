@@ -1,0 +1,696 @@
+
+@media (min-width: 992px){
+    
+    #rodape, #topo{
+    max-width: 960px;
+}
+}
+@media (min-width: 1200px){
+   
+   
+    #rodape, #topo{
+        
+     max-width: 1140px;
+    }
+}
+/*topo amarelo inicio*/
+#topo{
+    background:#f4d000 ;
+    width: 100%;
+    position:relative;
+    height: 200px;
+    margin:0 auto;
+    z-index: 1;
+}
+
+.header-principal, .rodape-principal {
+    background: #f4d000;
+    width: 100%;
+    position: relative;
+    
+}
+.header-principal{
+    padding-bottom: 10px;
+
+}
+.header-principal::after{
+    content:'';
+    width: 100%;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 0;
+}
+body{
+    background: #000;
+}
+.preto{
+    background: #000;
+    color: #fff;
+}
+#topo h1{
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 53px;
+    left: 0;
+}
+#topo h1 span{
+    color: #64604f;
+}
+#topo h6{
+    position: absolute;
+    top: 95px;
+    left: 227px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7d7c70;
+}
+#topo .agenda {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    
+}
+#topo .btn-agendar{
+    position: absolute;
+    top: 104px;
+    right: 50px;
+}
+/*topo amarelo fim*/
+/*menu inicio*/
+#topo .menu-topo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+   
+}
+
+#topo .menu-topo .nav-item .nav-link{
+    color: #fff;
+    background: #000;
+    transition: all .25s linear 0s;
+}
+#topo .menu-topo .nav-item .nav-link:hover, #topo .menu-topo .nav-item .nav-link.active{
+    color: #000;
+    background: #f4d000;
+
+
+}
+
+
+/*fim menu*/
+/*roda pe inicio*/
+#rodape {
+    width: 100%;
+    margin: 0 auto;
+    color: #7d7c7c;
+}
+/*roda pe fim*/
+/*comeco 3 fotos*/
+#home .bloco1 {
+    position: relative;
+}
+#home .bloco1::before{
+    
+        content: '';
+        display: block;
+        width: 100%;
+        border-bottom: 3px solid #f4d000;
+        margin-bottom: 5px;
+        margin-top: 25px;
+}
+#home .bloco1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border-top: 3px solid #f4d000;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+#home .bloco1{
+    width: 100%;
+
+}
+#home .boxcinza{
+    position: absolute;
+    width: 480px;
+    background: rgba(46, 40, 40, 0.9);
+    top: 50%;
+    left: 40px;
+    padding: 50px;
+    transform: translateY(-50%);
+}
+#home .boxcinza h2{
+    color: #f4d000;
+    left:30px;
+    font-size:20px;
+   
+   
+}
+#home .boxcinza p{
+    width: 359px;
+    height: 56px;
+    font-size: 13px;
+    left: 30px;
+    top: 130px;
+}
+#home .btn{
+    background: #ed1c24;
+    width: 101px;
+    height: 30px;
+    text-decoration: none;
+    float: right;
+    border: none;
+    
+   }
+
+.box3{
+    margin-top:40px ;
+    margin-bottom: 40px;
+    
+}
+.box3 header{
+    border-bottom: 3px solid #f4d000;
+    color: #fff;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.ico-anilia{
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 25px;
+    height: 10px;
+}
+.box3 header h3{
+    
+    font-size: 22px;
+
+
+}
+
+.box3 p{
+    color: #fff;
+    
+}
+/*fim 3 fotos*/
+/*inicio sobre*/
+#sobre .img-fluid {
+    width: 100%;
+    height: 300px;
+    border: 4px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+#sobre h1{
+    color: #f4d000;
+    margin: 40px 0;
+
+   
+}
+.txt2 p{
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: justify;
+    
+}
+.txt2 .btn-lg{
+    background: #ed1c24;
+    border: #ed1c24;
+    margin-left: 50px;
+
+}
+.txt3 {
+    color: #fff;
+  
+}
+.txt3 header h3{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    color: #f4d000;
+    left: 20px;
+    
+}
+.txt3 header img{
+    display: block;
+    position: absolute;
+    top: 3px;
+    
+    width: 50px;
+    
+}
+ 
+.txt3 p{
+  
+    width: 100%;
+    font-size: 12px;
+    text-align: justify;
+}
+/*inicio visao */
+ .visaototal h1{
+    color: #f4d000;
+    
+}
+.visaototal{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+   
+}
+#visao .txtvisao{
+    border: 5px solid #fff;
+    text-align: justify;
+    margin-bottom: 30px;
+   
+
+}
+
+.txtvisao header h3{
+    color: #f4d000;
+    font-size: 20px;
+}
+.border-right{
+    border-right: 5px solid #fff !important;
+    
+}
+
+
+/*fim visao*/
+/*começo depoimento*/
+.depbox h1{
+    color: #f4d000;
+    
+}
+.depbox{
+    
+    
+    margin-bottom: 20px;
+   margin-top: 50px;
+   
+}
+#dep .depbox{
+
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+    padding: 9px;
+
+
+}
+
+.depbox header h3{
+    color: #f4d000;
+    font-size: 20px;
+}
+.depbox .depnum{
+    font-size: 50px;
+    color: #f4d000;
+    text-align: center;
+    margin-top: 40px;
+}
+.depbox header p{
+    color:#fff;
+    font-size: 15px;
+}
+.depbox p{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/*fim depoimento*/
+/*inicio inscreva*/
+
+#insc .imginsc img{
+    border:5px solid #fff;
+    margin: 20px auto;
+
+}
+#insc .txtinsc header h1{
+    color: #f4d000;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#insc .txtinsc header h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#insc .txtinsc header p{
+    color: white;
+}
+#insc .redes{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    
+}
+#insc .redes a {
+   color:#fff
+   
+    
+}
+.form-group input{
+    margin: 10px auto;
+    background: #f4d000;
+    border:none;
+}
+
+.form-group textarea {
+    background: #f4d000;
+    color: #000;
+    border:none;
+}
+.form-group textarea:focus {
+    background: #f4d000;
+}
+.form-group input:focus{
+    background: #f4d000;
+}
+.form-group textarea:hover, .form-group input:hover{
+    border:1px solid #fff;
+    
+}
+.form-group textarea::placeholder, .form-group input::placeholder {
+    color: #000;
+  }
+  #insc .btn{
+    position: relative;
+    left: 280px;
+    background: #000;
+    border: none;
+  }
+/*fim inscreva*/
+/*começo blog*/
+
+#blog .navbar-nav {
+    color: #fff;
+    margin-top: 20px;
+
+}
+#blog .navbar-nav:hover {
+    color: #f4d000;
+}
+
+#blog .nav-link{
+    color: #fff;
+}
+#blog .nav-link:hover{
+    color: #f4d000;
+}
+#blog .col-3{
+    margin: 20px;
+}
+#blog .card{
+    background: #2a2a2a;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#blog .card img{
+    width: 100%;
+    height: 200px;
+} 
+
+
+#blog .card-text{
+    margin-bottom:20px;
+}
+
+#blog h5 a, #blog .card-text a{
+    
+    color: #fff;
+    
+    
+}
+#blog .imgUser{
+    font-size: 33px;
+}
+#blog .btnComp{
+    color: #fff;
+   
+}
+#blog .dropComp {
+     position: absolute;
+    right: 0;
+    top: 0;
+}
+#blog h5 a:hover, #blog .card-text a:hover{
+    
+    color: #f4d000;
+    
+    
+}
+#blog .card-footer{
+    border-top: 1px solid #7d7c70;
+}
+#blog .card-footer a{
+    color: #fff;
+ 
+}
+#blog .card-footer a:hover {
+    color: #f4d000;
+}
+#blog .card-footer .card-text .text-muted{
+   color: #fff !important;
+  
+}
+#blog .contador {
+    color: #fff;
+}
+
+/*fim blog*/
+/*começo comece*/
+
+#comece .navbar-nav {
+    color: #fff;
+    margin-top: 20px;
+
+}
+#comece .navbar-nav:hover {
+    color: #f4d000;
+}
+
+#comece .nav-link{
+    color: #fff;
+}
+#comece .nav-link:hover{
+    color: #f4d000;
+}
+#comece .card{
+    
+    border: 2px solid #fff;
+    background: #2a2a2a;
+    
+}
+
+#comece .card img{
+    width: 354px;
+    height: 350px;
+}
+#comece .card-body{
+   position: relative;
+   left: 30px;
+   color: #fff;
+   width: 100%;
+}
+#comece .card-title{
+    font-size: 30px;
+}
+
+#comece .texto1 {
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+#comece .card-text{
+    border-top: 1px solid #7d7c70;
+
+}
+#comece .text-muted {
+
+    font-size: 15px;
+    margin-left: 10px;
+    color: #fff !important;
+    
+   
+}
+.card-body h5, p{
+    color: #fff;
+}
+
+.card-body a:hover{
+    color: #f4d000;
+    text-decoration: none;
+}
+
+/*fim comece*/
+/*começo coment*/
+
+#coment .box-coment {
+    border: 1px solid #f4d000;
+    margin-bottom: 20px;
+    padding: 60px;
+    
+}
+#coment #navbarNav .nav-link{
+    color: #fff;
+}
+#coment #navbarNav .nav-link:hover{
+    color: #f4d000;
+}
+#coment header{
+    position: relative;
+    
+}
+#coment header img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position:relative;
+    left: 80px;
+    top: 30px;
+}
+#coment header small{
+    color:#fff;
+    position: relative;
+    left: 85px;
+    top: 35px;
+   
+}
+#coment .compoSearch{
+    position: absolute;
+    right: 0;
+    
+ 
+}
+#coment .compoSearch .btn{
+    background: none;
+    border: none;
+}
+/*fim no cabeçalho*/
+
+#coment h1{
+    
+    color: #fff;
+    position: relative;
+    left: 80px;
+    margin: 45px 0;
+    font-size: 40px;
+}
+#coment h5{
+    
+    color: #fff;
+    position: relative;
+    left: 80px;
+    margin: 45px 0;
+}
+
+#coment .conteudo-coment p{
+    color: #fff;
+    position: relative;
+    left: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#coment .imgtop{
+    width: 740px;
+    height: 493px;
+    position: relative;
+    left: 80px;
+    margin-bottom: 35px;
+    
+}
+#coment .linha-vertical{
+    border-left: 2px solid red;
+    padding: 12px;
+}
+#coment strong {
+    
+    color: #fff;
+    position: relative;
+    left: 40px;
+    margin:35px 0;
+    font-size: 17px;
+
+}
+#coment .redesbox {
+  color: #fff;
+  
+}
+#coment .fab, #coment .fas{
+    margin-left: 45px;
+
+}
+#coment .redesbox a{
+    position: relative;
+    left:500px;
+    top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#coment .redesbox a:hover{
+    color: #f4d000;
+}
+
+#coment .titulo-coment{
+    color: #fff;
+}
+#coment .cardbaixocomet{
+    background: #000;
+    border: 1px solid yellow;
+    margin: 15px 0;
+}
+
+#coment .cardbaixocomet img{
+    width: 285px;
+    height: 162px;
+
+}
+#coment .viws{
+    color: #fff;
+   
+    position: relative;
+  
+}
+#coment .form-group{
+    color: #fff;
+}
+#coment .form-group textarea{
+    background: #fff;
+    
+}
+#coment .boxicon{
+    color: #fff;
+}
+#coment .boxicon .btn{
+    background: #fff;
+    color: #000;
+    position: relative;
+    left: 600px;
+}
+#coment .fas, #coment .far{
+     color: #fff;
+}
+
+#coment .box-coment .boxicon span{
+    position: relative;
+    left: 580px;
+    text-decoration: none;
+}
+
+/*fim coment*/
