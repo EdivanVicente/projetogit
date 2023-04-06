@@ -1,1 +1,2 @@
 Começo do git
+alterado
